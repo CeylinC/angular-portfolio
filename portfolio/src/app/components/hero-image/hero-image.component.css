@@ -1,0 +1,18 @@
+.hero-image-container {
+  position: relative;
+  width: 50%;
+}
+
+.hero-image-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.hero-image-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
