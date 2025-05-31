@@ -1,0 +1,27 @@
+.button-container {
+  padding: 8px 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-container.button-filled {
+  background-color: #FDC435;
+  transition: all 0.25s ease-in-out;
+}
+
+.button-container.button-filled:hover {
+  background-color: #e3b02f;
+}
+
+.button-container.button-ghost {
+  background-color: transparent;
+  border: 1px solid black;
+  transition: all 0.25s ease-in-out;
+}
+
+.button-container.button-ghost:hover {
+  background-color: #e5e5e5;
+}
