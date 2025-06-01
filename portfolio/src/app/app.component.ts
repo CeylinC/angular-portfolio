@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { ButtonComponent } from './components/button/button.component';
 import { HeroImageComponent } from "./components/hero-image/hero-image.component";
 import { ProjectCardComponent } from "./components/project-card/project-card.component";
+import { ProjectCardListComponent } from "./containers/project-card-list/project-card-list.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ButtonComponent, HeroImageComponent, ProjectCardComponent],
+  imports: [RouterOutlet, ButtonComponent, HeroImageComponent, ProjectCardComponent, ProjectCardListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

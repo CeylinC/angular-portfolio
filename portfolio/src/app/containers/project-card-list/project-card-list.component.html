@@ -1,0 +1,11 @@
+<div class="project-card-list-container">
+  <app-project-card
+    *ngFor="let content of contents; let i = index"
+    [content]="{
+      title: content.title,
+      description: content.description,
+      imgUrl: content.imgUrl
+    }"
+    [imgPosition]="i % 2 == 0 ? 'right' : 'left'"
+  />
+</div>
