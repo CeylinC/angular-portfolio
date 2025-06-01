@@ -1,0 +1,12 @@
+<div class="project-card-container">
+  <div class="project-card-content-container">
+    <div class="project-card-content">
+      <h1 class="project-card-title">{{content.title}}</h1>
+      <p class="project-card-description">
+        {{content.description}}
+      </p>
+      <app-button label="View Project" type="ghost" />
+    </div>
+  </div>
+  <img class="project-card-img" [src]="content.imgUrl" alt="" />
+</div>
